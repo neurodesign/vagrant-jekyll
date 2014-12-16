@@ -20,9 +20,9 @@ In that folder, start the vagrant vm:
 
 This vagrant file will setup the vm, and automatically launch jekyll.
 
-A "pages" folder will be created upon first launch: jekyll will watch this folder. Edit your files in that folder, and they will get compiled.
+A "pages" folder will be created upon first launch: jekyll will compile and watch for changes in it.
 
-The contents of that folder are .gitignored so you can create or clone your own repository in it, and do whatever you want into.
+This folder is .gitignored so you can create or clone your own repository in it, and do whatever you want into.
 
 
 ###Browse your site
