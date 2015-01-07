@@ -7,11 +7,7 @@ Run jekyll in a vagrant box, edit your files from the host, and get the files co
 
 You need vagrant, and virtual box (although you can change the provider).
 
-Clone the repository:
-
-    git clone git@github.com:neurodesign/vagrant-jekyll.git
-
-In that folder, start the vagrant vm:
+Clone the repository, and start the vagrant vm:
 
     vagrant up
 
@@ -20,19 +16,16 @@ In that folder, start the vagrant vm:
 
 This vagrant file will setup the vm, and automatically launch jekyll.
 
-A "pages" folder will be created upon first launch: jekyll will compile and watch for changes in it.
-
-This folder is .gitignored so you can create or clone your own repository in it, and do whatever you want into.
-
 
 ###Browse your site
 
 The website is available at [localhost:4000](http://localhost:4000/) thanks to port forwarding.
+An hello world index.html is present to demo the process.
 
 
 ###Check for the jekyll process if required
 
-If needed, you can check for the jekyll process: it is launched in a screen session name 'jekyll'.
+If needed, you can check for the jekyll process: it is launched in a screen session named 'jekyll'.
 
 Ssh into the vm, and run:
 

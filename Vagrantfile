@@ -17,5 +17,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell,
     :run => "always",
     :privileged => false,
-    :path => "launch-jekyll.sh"
+    :path => "provision/launch-jekyll.sh"
 end
