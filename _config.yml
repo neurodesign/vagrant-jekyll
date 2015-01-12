@@ -1,1 +1,1 @@
-exclude: [README.md, Vagrantfile, provision, .gitignore]
+exclude: [README.md, Vagrantfile, .gitignore, .vagrant]
